@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
+gem 'haml-rails', '>= 0.3.4', :group => :development
 gem 'bootstrap-sass'
 #User postgresql as database for production
 group :production do
